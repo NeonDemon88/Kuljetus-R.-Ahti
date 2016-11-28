@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+
+    <title>Kuljetus R. Ahti</title>
+	
+	<link href="https://fonts.googleapis.com/css?family=Bangers|Milonga" rel="stylesheet">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link href="css/carousel.css" rel="stylesheet" type="text/css"> 
+	<link href="css/lightbox.css" rel="stylesheet" type="text/css"> 
+	<link href="css/navbar-fixed-top.css" rel="stylesheet" type="text/css">
+	
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+   <script src="js/carousel.js"></script>
+   <script src="js/jquery.elevateZoom-3.0.8.min.js"></script>
+   <script src="js/lightbox.min.js"></script>
+   
+  </head>
+  
+
+  <body>
+     <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#myCarousel">Kuljetus R. Ahti</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#myCarousel">Etusivu</a></li>
+            <li><a href="#info">Info</a></li>
+            
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Galleriat <span class="caret"></span></a>
+              <!-- linkit gallerioihin -->
+              <ul class="dropdown-menu" role="menu" style="background-color:#0281E3;">
+                <li><a href="#galleria1">Kuljetuskalustomme</a></li>
+                <li><a href="#galleria3">Uusimmat hankintamme</a></li>
+                <li><a href="#galleria2">Vanhempaa kalustoa</a></li>
+                
+              </ul>
+            </li>
+            <li><a href="#otayhteytta">Ota Yhteyttä</a></li>
+          </ul>
+           <!-- linkit facebookiin ja twitteriin -->
+         <ul class="nav navbar-nav navbar-right">
+           <li><a href="http://www.facebook.com"><span class="glyphicon glyphicon-thumbs-up"></span> Facebook</a></li>
+           <li><a href="http://www.twitter.com"><span class="glyphicon glyphicon-star"></span> Twitter</a></li>
+         </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+     
+
+
+    <!-- Carousel-->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div id="etusivu" class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="img/rekka1.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Tehokasta Logistiikkaa</h1>
+              <p>Meille aikataulussa pysyminen on kunnia-asia. Siksi panostamme kuljetuksiemme etukäteissuunnitteluun.</p>
+              <p><a class="btn btn-lg btn-primary" href="#info" role="button">Info</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/rekka2.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Modernit kuljetusvälineet</h1>
+              <p>Seuraamme alan kehitystä tiiviisti ja meillä onkin käytössä uusimmilla tekniikoilla varustetut kuljetusvälineet.</p>
+              <p><a class="btn btn-lg btn-primary" href="#galleria1" role="button">Galleriat</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/rekka3.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Kiinnostuitko?</h1>
+              <p>Meistä saat luotettavan yhteistyökumppanin. Pyydä tarjous tai sovi aika henkilökohtaiseen tapaamiseen.</p>
+              <p><a class="btn btn-lg btn-primary" href="#otayhteytta" role="button">Ota yhteyttä</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+
+    <div class="container marketing">
+
+      <div class="row">
+        <div class="col-md-4">
+          <img class="img-circle" src="img/rekka1.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <h2>Info</h2>
+          <p>Tarjoamme luotettavaa kuljetuspalvelua kotimaassa ja ulkomailla. Kuljetusalan sopimuksiin kannattaa tutustua etukäteen.</p>
+          <p><a class="btn btn-default" href="#info" role="button">Lisätietoa &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-md-4">
+          <img class="img-circle" src="img/rekka2.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <h2>Galleriat</h2>
+          <p>Kuvagalleriat esittelevät laadukkaan kuljetuskalustomme. Kokeneet mekaanikkomme pitävät kuljetuskalustostamme hyvää huolta.</p>
+          <p><a class="btn btn-default" href="#galleria1" role="button">Lisätietoja &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-md-4">
+          <img class="img-circle" src="img/rekka3.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <h2>Kiinnostuitko?</h2>
+          <p>Ota meihin yhteyttä, kerromme mielellämme lisää. Toimipisteemme sijaitsee Länsi-Pasilassa, Helsingissä, hyvien liikenneyhteyksien päässä.</p>
+          <p><a class="btn btn-default" href="#otayhteytta" role="button">Lisätietoa &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div id="info" class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Info</h2>
+		  <div id="tuotemenu">
+			<div id="otsikko1">§1 Sovellusala</div>
+			<div id="teksti1">Näitä kuljetusmääräyksiä sovelletaan kaikissa tavaralinjaliikenteen kuljetustehtävissä, ellei toisin ole nimenomaisesti erikseen sovittu. Määräyksiä ei sovelleta sellaisiin kuljetuksiin, jotka eivät kuulu tiekuljetussopimuslain piiriin taikka joissa on olemassa omat erikoismääräyksensä. Tavaralinjaliikenteeksi katsotaan kotimaassa tapahtuvaa rahdin kuljettamista, joka on säännöllistä, maantieteellisesti kattavaa sekä kahden tai useamman rahdinantajan toimeksiantojen yhdistämistä ja/tai ketjuttamista. Toimeksiannot suoritetaan rahdinkuljettajan erikseen ilmoittaman palvelulupauksen puitteissa, hänen omassa ohjauksessaan ja itsenäisesti määrittelemän reitityksen mukaisesti. 
+				Nämä yleiset määräykset täsmentävät ja täydentävät Tiekuljetussopimuslain (TKSL) määräyksiä.<br><br>
+				Logistiikkayritys noudattaa yhdistyksen suosituksia ja julkaisee lisäksi yhtiökohtaiset palvelulupaukset ja hinnastot.
+			<br><br>
+			
+			<small><a href="http://ek2.ek.fi/logistiikkayritysten_liitto/fi/sopimusehdot/">
+				http://ek2.ek.fi/logistiikkayritysten_liitto/fi/sopimusehdot/</a></small>
+			</div>
+			
+			<div id="otsikko2">§2 Kuljetussopimus ja sen syntyminen</div>
+			<div id="teksti2">Kuljetussopimus syntyy kun rahdinkuljettaja on vahvistanut kuljetustilauksen. Vahvistus sisältää ainoastaan §8 perustuotteen mukaisen toiminnan.
+				Kuljetussopimus koskee tilauksessa mainittua tavaramäärää ja vahvistettua palvelulupausta. Rahdinkuljettajalla on oikeus veloittaa rahti tilatun määrän mukaisesti, mikäli lähtevää tavaraa on vähemmän, kuin tilattu. Rahdinkuljettajalla on myös oikeus kieltäytyä lastaamasta kuljetustilauksessa mainittua suurempaa määrää samalla tilauksella.
+			<br><br>
+			
+			<small><a href="http://ek2.ek.fi/logistiikkayritysten_liitto/fi/sopimusehdot/">
+				http://ek2.ek.fi/logistiikkayritysten_liitto/fi/sopimusehdot/</a></small>
+			</div>
+			</div>
+         
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="img/infokuva.jpg" alt="Generic placeholder image" style="padding:10px">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+      
+      <!-- 1. Galleria -------------------------------->
+      
+      <div id="galleria1" class="row featurette">
+        
+        <div class="rekat col-md-7">
+          <h2 class="featurette-heading">Kuljetuskalustoa maailmalla</h2>
+		  
+		  <a href="img/isorekka1.jpg" data-lightbox="rekat"><img src="img/pienirekka1.jpg"></img></a>  
+		  <a href="img/isorekka2.jpg" data-lightbox="rekat"><img src="img/pienirekka2.jpg"></img></a>  
+		  <a href="img/isorekka3.jpg" data-lightbox="rekat"><img src="img/pienirekka3.jpg"></img></a>  
+		  <a href="img/isorekka4.jpg" data-lightbox="rekat"><img src="img/pienirekka4.jpg"></img></a>
+		  <a href="img/isorekka5.jpg" data-lightbox="rekat"><img src="img/pienirekka5.jpg"></img></a>  
+		  <a href="img/isorekka6.jpg" data-lightbox="rekat"><img src="img/pienirekka6.jpg"></img></a>
+        </div>
+		<div class="col-md-5">
+		   <h2 class="featurette-heading">Luotettavaa kuljetuspalvelua</h2>
+          <p>Ammattitaitoiset ja luotettavat kuljettajamme toimittavat tavarat perille ennalta sovitun aikataulun mukaisesti.</p>
+		  <br>
+		  <p>Yhteistyökumppaniemme kanssa meillä on maailman eri kolkat kattava verkosto.</p>
+		  </div>
+      </div>
+
+      <hr class="featurette-divider">
+      
+       <!-- 2. Galleria -------------------------------->
+      
+      <div id="galleria2" class="row featurette">
+         <div class="rekat2 col-md-7">
+          <h2 class="featurette-heading">Historiaa</h2>
+		  
+		  <a href="img/vanha1iso.jpg" data-lightbox="rekat2"><img src="img/vanha1pieni.jpg"></img></a>  
+		  <a href="img/vanha2iso.jpg" data-lightbox="rekat2"><img src="img/vanha2pieni.jpg"></img></a>  
+		  <a href="img/vanha3iso.jpg" data-lightbox="rekat2"><img src="img/vanha3pieni.jpg"></img></a>  
+		  <a href="img/vanha4iso.jpg" data-lightbox="rekat2"><img src="img/vanha4pieni.jpg"></img></a>
+		  <a href="img/vanha5iso.jpg" data-lightbox="rekat2"><img src="img/vanha5pieni.jpg"></img></a>  
+		  <a href="img/vanha6iso.jpg" data-lightbox="rekat2"><img src="img/vanha6pieni.jpg"></img></a>
+		  <a href="img/vanha7iso.jpg" data-lightbox="rekat2"><img src="img/vanha7pieni.jpg"></img></a>  
+		  <a href="img/vanha8iso.jpg" data-lightbox="rekat2"><img src="img/vanha8pieni.jpg"></img></a>  
+		  <a href="img/vanha9iso.jpg" data-lightbox="rekat2"><img src="img/vanha9pieni.jpg"></img></a>  
+		  <a href="img/vanha10iso.jpg" data-lightbox="rekat2"><img src="img/vanha10pieni.jpg"></img></a>
+		  <a href="img/vanha11iso.jpg" data-lightbox="rekat2"><img src="img/vanha11pieni.jpg"></img></a>  
+		  <a href="img/vanha12iso.jpg" data-lightbox="rekat2"><img src="img/vanha12pieni.jpg"></img></a>
+        </div>
+		<div class="col-md-5">
+		   <h2 class="featurette-heading">Vanhempaa kalustoa</h2>
+          <p>Vanhempi kalustomme on yhä ajokuntoista vaikkakin osa on siirtynyt viettämään eläkepäiviä.</p>
+		  </div>
+      </div>
+
+      <hr class="featurette-divider">
+      
+       <!-- 3. Galleria -------------------------------->
+      
+      <div id="galleria3" class="row featurette">
+  
+		<div class="col-md-5">
+		 <h2 class="featurette-heading">Uusimmat hankintamme</h2>
+		 <p>Modernin kuljetuskalustomme pitää kunnossa omat ammattitaitoiset mekaanikkomme.</p>
+		 <p>Seuraamme aktiivisesti alan kehitystä ja pyrimme ottamaan käytäntöön alan uusimmat trendit.</p>
+		 <p>Uusi teknologia auttaa kuljetustyön kaikissa vaiheissa latauksesta purkuun.</p>
+        </div>  
+  
+        <div class="col-md-7">
+		<img id="zoom_01" src='img/zoom1pieni.jpg' data-zoom-image="img/zoom1iso.jpg"/>
+		<img id="zoom_02" src='img/zoom2pieni.jpg' data-zoom-image="img/zoom2iso.jpg"/>
+        </div>
+	
+      </div>
+
+      <hr class="featurette-divider">
+      
+      <!-- yhteystiedot ja lomake-->
+
+      <div id="otayhteytta" class="row featurette">
+        <div class="col-md-7" >
+          <h2 class="featurette-heading">Kiinnostuitko?</h2>
+          <p>Jos kiinnostuit, niin ota yhteyttä soittamalla, sähköpostitse tai alla olevalla lomakkeella.</p>
+		  
+		  <input id="lomakenappi" type="button" value="Avaa yhteydenottolomake" style="padding:5px; margin-bottom:10px"></input>
+		  <br>
+		  
+		  <form id="lomake" style="position:absolute" >
+		  <h2>Yhteydenottolomake</h2>
+		  <div id="" class="form-group">
+			<label for="nimi">Nimi:</label>
+			<input type="text" class="form-control" id="nimi" required>
+			</div>
+			<div class="form-group">
+			<label for="email">Sähköposti:</label>
+			<input type="email" class="form-control" id="email" required>
+			</div>
+			<div class="form-group">
+			<label for="puhelin">Puhelin:</label>
+			<input type="tel" pattern="\+?[0-9 () \-]+" class="form-control" id="puhelin">
+			</div>
+			<div class="form-group">
+			<label for="viesti">Viesti:</label>
+			<textarea class="form-control" rows="5" id="viesti" required></textarea>
+			</div>
+			<button type="submit" class="btn btn-default">Lähetä</button>
+		  </form>
+		  
+		  <div class="container">
+  
+			<table class="table">
+				<tbody>
+					<tr>
+						<td style="background-color:#d0cdfe;">Toimitusjohtaja Rainer Ahti</td>
+						<td style="background-color:#d0cdfe;">puh: 040 040 040</td>
+						<td style="background-color:#d0cdfe;">rainer.ahti@kuljetusahti.net</td>
+					</tr>
+					<tr>
+						<td>Logistiikka Esa Merkki</td>
+						<td>puh: 040 040 040</td>
+						<td>esa.merkki@kuljetusahti.net</td>
+					</tr>
+					<tr>
+						<td style="background-color:#d0cdfe;">Laskutus Ritva Ahti</td>
+						<td style="background-color:#d0cdfe;">puh: 040 444 444</td>
+						<td style="background-color:#d0cdfe;">ritva.ahti@kuljetusahti.net</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		  
+        </div>
+		
+        <div class="col-md-5">
+         <h2 class="featurette-heading">Näin löydät meidät</h2> 
+		 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1982.6803039976535!2d24.931151816046253!3d60.20257348197286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469209922554347b%3A0xaf877e467ac63d4a!2sRatapihantie+15%2C+00520+Helsinki!5e0!3m2!1sfi!2sfi!4v1478469066353" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#etusivu">Takaisin alkuun</a></p>
+        <p>&copy; 2014 Kuljetus R. Ahti &middot; Ratapihantie 15, 00520 Helsinki &middot; +358444404400</p>
+      </footer>
+
+    </div><!-- /.container -->
+
+   
+   
+   <script>
+  $(document).ready(function(){
+      
+  $("#otsikko1").click(function(){
+          $('#teksti1').slideToggle("slow");
+	});
+  
+  $("#otsikko2").click(function(){
+          $('#teksti2').slideToggle("slow");
+	});
+	
+  $('#lomake').hide();	
+  
+  var i=0;
+  $("#lomakenappi").on('click', function(){
+  $("#lomake").toggle("slow");	
+  if(i++ % 2 == 0) {$(this).val('Sulje yhteydenottolomake');  
+	}else{$(this).val('Avaa yhteydenottolomake');	
+	}
+	});
+  
+  $("#zoom_01").elevateZoom({
+	zoomType : "lens",
+	lensShape : "round",
+	lensSize : 200
+	});
+  $("#zoom_02").elevateZoom({
+	zoomType : "lens",
+	lensShape : "round",
+	lensSize : 200
+	});
+});
+   
+   </script>
+  </body>
+</html>
